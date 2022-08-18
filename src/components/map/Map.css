@@ -1,0 +1,48 @@
+.map-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidebarStyle {
+  display: inline-block;
+  position: absolute;
+  z-index: 1 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapboxgl-popup {
+  max-width: 300px;
+}
+
+.marker {
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.type-1 {
+ /* background-image: url("../image/type1.png"); */
+ background-image: url("./type1.b916f67f.png");
+}
+.type-2 {
+ /* background-image: url("../image/type2.png"); */
+ background-image: url("./type2.2c9c6c34.png");
+}
+.type-3 {
+ /* background-image: url("../image/type3.png"); */
+ background-image: url("./type3.07246810.png");
+}
+.type-4 {
+ /* background-image: url("../image/type4.png"); */
+ background-image: url("./type4.2dee407d.png");
+}
+.type-5 {
+ /* background-image: url("../image/type5.png"); */
+ background-image: url("./type5.63e75117.png");
+}

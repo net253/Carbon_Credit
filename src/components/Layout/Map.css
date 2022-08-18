@@ -1,0 +1,28 @@
+.map-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidebarStyle {
+  display: inline-block;
+  position: absolute;
+  z-index: 1 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapboxgl-popup {
+  max-width: 300px;
+}
+
+.marker {
+  background-image: url("../img/icons8-leaf-48.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

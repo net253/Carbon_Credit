@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.react-datepicker-popper {
+  z-index: 5 !important;
+}
+
+.bg-login {
+  /* background-image: url("./components/image/SNCLoginBG.png"); */
+  background-image: url("./SNCLoginBG.fb0a08fb.png");
+  background-repeat: no-repeat;
+  background-size: 800px 500px;
+  background-position: bottom right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swal2-container {
+  z-index: 9999 !important;
+}
+
